@@ -19,7 +19,7 @@ variable "parametergroup" {
   default = "parametergroup"
 }
 variable "azone" {
-  default = "ap-southeast-1"
+  default = "us-east-1"
 }
 variable "instanceclass" {
 }
