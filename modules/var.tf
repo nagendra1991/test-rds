@@ -21,8 +21,6 @@ variable "parametergroup" {
 variable "azone" {
   default = "ap-southeast-1"
 }
-variable "securitygroup" {
-}
 variable "instanceclass" {
 }
 variable "storagetype" {
