@@ -6,4 +6,6 @@ module "db" {
   storage       = "storagesize"
   name          = "dbname"
   instanceclass = "dbtype"
+  username      = "dbusername"
+  password      = "dbuserpwd" 
 }
