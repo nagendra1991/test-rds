@@ -16,7 +16,7 @@ variable "password" {
 variable "subnetgroup" {
 }
 variable "parametergroup" {
-  default = "parametergroup"
+  default = "default.mysql5.7"
 }
 variable "azone" {
   default = "us-east-1a"
