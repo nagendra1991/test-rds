@@ -15,7 +15,5 @@ resource "aws_db_instance" "db" {
   vpc_security_group_ids  = ["${var.securitygroup}"]
   backup_retention_period = 30   # how long we are going to keep your backups 
   skip_final_snapshot     = true # skip final snapshot when doing terraform destroy
-  tags = {
-    Name = "${var.nametag}"
   }
 }
